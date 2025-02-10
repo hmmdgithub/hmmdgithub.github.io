@@ -1,1 +1,21 @@
-site_name: My Docs
+site_name: hmmd-io
+site_description: my web site for dev
+site_url: https://hmmdgithub.github.io
+theme:
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
